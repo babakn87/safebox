@@ -1,0 +1,30 @@
+{
+  "name": "safebox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getbalance": "node scripts/cli.js getbalance",
+    "getpassword": "node scripts/cli.js getPassword",
+    "setpassword": "node scripts/cli.js setPassword",
+    "removepassword": "node scripts/cli.js removePassword",
+    "getpasswordname": "node scripts/cli.js getPN",
+    "sendeth": "node scripts/cli.js sendEther",
+    "geteth": "node scripts/cli.js getEther",
+    "deposit": "node scripts/cli.js sendDeposit",
+    "updatelogic": "node scripts/cli.js updateLogic"
+  },
+  "keywords": [
+    "ethereum",
+    "safebox",
+    "password-manager",
+    "blockchain"
+  ],
+  "author": "Babak",
+  "license": "MIT",
+  "description": "A secure Ethereum-based password and Ether management system",
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
