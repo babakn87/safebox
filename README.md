@@ -72,8 +72,6 @@ npm run getbalance
 
 **CLI Commands**
 ```bash
-This section introduces all available Safebox CLI commands with examples:
-
 1.getbalance
 Description: Displays the Ether balance in the Safebox contract.
 Example:
